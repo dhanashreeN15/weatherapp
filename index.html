@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather Finder</h1>
+        <div id="location-info">
+            <p>Enter a location (City, Country) or use your geolocation:</p>
+            <input type="text" id="location-input" placeholder="e.g., London, UK" />
+            <button id="fetch-weather-btn">Get Weather</button>
+        </div>
+
+        <div id="weather-info" class="weather-info hidden">
+            <h2 id="city-name"></h2>
+            <p id="current-temp"></p>
+            <p id="weather-description"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+        </div>
+
+        <button id="use-geolocation-btn">Use My Location</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

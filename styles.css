@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.weather-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.weather-container:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#use-geolocation-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#use-geolocation-btn:hover {
+    background-color: #218838;
+}
